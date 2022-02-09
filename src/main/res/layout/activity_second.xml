@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:background="@drawable/bg"
+    tools:context=".SecondActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".SecondActivity">
+
+        <TextView
+            android:id="@+id/text_header2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/intro2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/date_t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_h"
+            app:layout_constraintBaseline_toBaselineOf="@+id/no_t"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.185"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/monthlyLoan_t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/monthlyLoan_h"
+            app:layout_constraintBaseline_toBaselineOf="@+id/date_t"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/balance_t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/balance_h"
+            app:layout_constraintBaseline_toBaselineOf="@+id/monthlyLoan_t"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.344"
+            app:layout_constraintStart_toEndOf="@+id/monthlyLoan_t" />
+
+        <TextView
+            android:id="@+id/no_t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="72dp"
+            android:text="@string/no_h"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/no_mlt"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="108dp"
+            app:layout_constraintEnd_toEndOf="@+id/no_t"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/no_t"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/date_mlt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBaseline_toBaselineOf="@+id/no_mlt"
+            app:layout_constraintEnd_toEndOf="@+id/date_t"
+            app:layout_constraintStart_toStartOf="@+id/date_t" />
+
+        <TextView
+            android:id="@+id/monthlyLoan_mlt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBaseline_toBaselineOf="@+id/date_mlt"
+            app:layout_constraintEnd_toEndOf="@+id/monthlyLoan_t"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="@+id/monthlyLoan_t" />
+
+        <TextView
+            android:id="@+id/balance_mlt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBaseline_toBaselineOf="@+id/monthlyLoan_mlt"
+            app:layout_constraintEnd_toEndOf="@+id/balance_t"
+            app:layout_constraintStart_toStartOf="@+id/balance_t" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

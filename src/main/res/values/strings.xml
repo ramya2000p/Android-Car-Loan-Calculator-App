@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Ramya Car Loan Calculator</string>
+
+    <string name="title">Car Loan Calculator</string>
+    <string name="ok1">Calculate</string>
+    <string name="intro1">Please key in your details</string>
+    <string name="carb">Car Brand:</string>
+    <string name="model">Car Model:</string>
+    <string name="loan">Amount of Loan:</string>
+    <string name="date">Loan Commencement Date:</string>
+    <string name="dateHint">DD/MM/YYYY</string>
+    <string name="interest">Annual Interest Rate:</string>
+    <string name="length">Loan Length (years):</string>
+    <string name="cbox">Remember my information</string>
+
+    <string name="checkbox">com.example.ramyacarloancalculator.checkbox</string>
+    <string name="loanSF">com.example.ramyacarloancalculator.loanSF</string>
+    <string name="dateSF">com.example.ramyacarloancalculator.dateSF</string>
+    <string name="interestSF">com.example.ramyacarloancalculator.interestSF</string>
+    <string name="lengthSF">com.example.ramyacarloancalculator.lengthSF</string>
+
+   <string name="intro2">Your Loan Details &amp; Monthly Payments</string>
+    <string name="no_h">No</string>
+    <string name="date_h">Date</string>
+    <string name="monthlyLoan_h">Monthly Loan Amount</string>
+    <string name="balance_h">Balance</string>
+
+    <string name="no_mlt">No</string>
+    <string name="date_mlt">Date</string>
+    <string name="monthlyLoan_mlt">Monthly Loan Amount</string>
+    <string name="balance_mlt">Balance</string>
+
+    <string-array name="brands_list">
+        <item>Toyota</item>
+        <item>Honda</item>
+        <item>Perodua</item>
+    </string-array>
+
+    <string-array name="toyota_list">
+        <item>Vios</item>
+        <item>Fortuner</item>
+        <item>Vellfire</item>
+    </string-array>
+
+    <string-array name="honda_list">
+        <item>City</item>
+        <item>Jazz</item>
+        <item>Odyssey</item>
+    </string-array>
+
+    <string-array name="perodua_list">
+        <item>Axia</item>
+        <item>Bezza</item>
+        <item>Myvi</item>
+    </string-array>
+</resources>
